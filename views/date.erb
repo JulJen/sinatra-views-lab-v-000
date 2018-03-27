@@ -1,6 +1,12 @@
-require 'date'
+<!DOCTYPE html>
+<html>
+<h1>Today</h1>
+  <% today = Date.today.strftime("%A, %B %d, %Y") %>
+  <p>The date is <%= today %></p>
+</body>
+</html>
 
-<h1><%= "Today" %></h1>
-<p><%= "The date is %A, %B %d, %Y." %></p>
+<!-- <h1><%= "Today" %></h1> -->
+<!-- <p><%= The date is DateTime.new("%A, %B %d, %Y").%></p> -->
 
 <!-- The date is Wednesday, November 18, 2015. -->
