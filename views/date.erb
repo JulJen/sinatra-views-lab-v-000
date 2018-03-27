@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
-<h1>Today</h1>
-  <% today = Date.today.strftime("%A, %B %d, %Y") %>
-  <p>The date is <%= today %></p>
-</body>
+  <head>
+    <title>Today</title>
+  </head>
+
+  <body>
+    <h1>Today</h1>
+    <% today = Date.today.strftime("%A, %B %d, %Y") %>
+    <p>The date is <%= today %></p>
+  </body>
 </html>
 
 <!-- <h1><%= "Today" %></h1> -->
